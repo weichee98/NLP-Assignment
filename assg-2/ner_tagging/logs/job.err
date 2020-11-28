@@ -1,0 +1,14 @@
+train.py:338: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(input_embedding, -bias, bias)
+train.py:373: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+train.py:378: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+train.py:386: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+train.py:389: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+train.py:345: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(input_linear.weight, -bias, bias)
+train.py:1034: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), gradient_clip)
